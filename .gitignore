@@ -1,2 +1,6 @@
-.vscode
-__pycache__
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore Python bytecode/cache folders
+__pycache__/
+*.py[cod]
