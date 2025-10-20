@@ -1,10 +1,12 @@
-age = int(input())
+standard_input = "Fairy"
 
-if age >= 18:
-    print("You can vote")
+# switches first and last character of input word
 
-elif 0 <= age < 18:
-    print("Too young to vote")
+word = input()
 
-else:
-    print("You are a time traveller")
+char_count = len(word)
+
+first_char = word[0]
+last_char = word[char_count - 1]
+
+print(last_char + word[1:char_count - 1] + first_char)
