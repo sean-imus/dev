@@ -1,7 +1,5 @@
-feet_to_cm = 30.48
+expression = input()
+firstNumStr, secondNumStr = expression.split('+')
 
-number1 = float(input())
-
-calc = number1 * feet_to_cm
-
-print(calc)
+sum = int(firstNumStr) + int(secondNumStr)
+print(sum)
